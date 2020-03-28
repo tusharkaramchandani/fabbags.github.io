@@ -1,0 +1,14 @@
+/*Disabling Add to Cart - Issue 1585*/
+
+jQuery(document).ready(function(){
+    //jQuery('.btn-cart').removeAttr('onclick').attr('disabled','disabled').click(function(e) {
+    //    e.preventDefault();
+    //    return false;
+    //    //do other stuff when a click happens
+    //});
+    //jQuery('.add_to_cart_small').removeAttr('onclick').click(function(e) {
+    //    e.preventDefault();
+    //    return false;
+    //    //do other stuff when a click happens
+    //});
+});

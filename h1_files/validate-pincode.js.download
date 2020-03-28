@@ -1,0 +1,9 @@
+Validation.add('validate-pincode', 'Please enter a valid pincode to proceed.', function(v) {
+		if(v.length>6)
+            return false;
+        if(v.length<6)
+            return false;
+        else
+            return true;
+	
+})

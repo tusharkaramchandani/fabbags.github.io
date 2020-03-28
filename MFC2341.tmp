@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+* {
+	box-sizing:border-box;
+	}
+	.column{
+	float:left;
+	width:90%;
+	padding:25px;
+	}
+	.row:after{
+	content:"";
+	clear:both;
+	display:table;
+	}
+	h1{
+	padding:0;
+	font-size:60px;
+	font-family:sans-serif;
+	}
+	p{
+	font-size:25px;
+	color:#000;
+	}
+	</style>
+	</head>
+	<body>
+	<h1>Hard Case</h1>
+	<div class="column">
+	<div class="row">
+	<img src="H1.jpg"
+	alt="" style="width:250px">
+	</div>
+	<p></p>
+	<p>RS :- </p>
+	<div class="row">
+	<img src="H2.jpg"
+	alt="" style="width:250px">
+	<p></p>
+	<p>RS :- </p>
+	</div>
+	<div class="row">
+	<img src="H3.jpg"
+	alt="" style="width:250px">
+	<p></p>
+	<p>RS :- </p>
+	</div>
+	</div>
+</body>
+</html>
+

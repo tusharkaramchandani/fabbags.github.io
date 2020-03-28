@@ -1,0 +1,98 @@
+.social-icons{
+    right: 0;
+    position: fixed;
+    top: 100px;
+    width: 45px;
+    z-index: 9999;
+}
+.social-icon {
+    background-color: #33353B;
+    background-image: url('../../images/social-icons.png'); 
+}
+
+#facebook-btn span {
+    background-position: 12px 10px;
+	background-color:#3b5998;
+}
+#linkedin-btn span {
+	background-position: 12px -266px; 
+}
+#twitter-btn span {
+    background-position: 12px -35px;
+	background-color:#62bdb2;
+}
+#youtube-btn span {
+    background-position: 12px -226px; 
+}
+#pintrest-btn span {
+    background-position: 12px -177px;
+	background-color:#d43638; 
+}
+#google-btn span {
+    background-position: 12px -127px;
+	background-color:#db4a39; 
+}
+#instagram-btn span {
+    background-position: 10px -300px; 
+}
+#flickr-btn span {
+    background-position: 10px -335px; 
+}
+#web-btn span {
+    background-position: 10px -403px; 
+}
+#mail-btn span {
+    background-position: 10px -369px; 
+}
+.social-icon {
+    transition: background-color 0.4s ease-in 0s;
+    -webkit-transition: background-color 0.4s ease-in 0s;
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    height: 43px;
+    margin-bottom: 2px;
+    width: 43px; 
+}
+.social-icons a:hover {
+text-decoration:none;
+}
+#facebook-btn:hover .social-icon { 
+    background-color: #3B5998;  
+}
+#linkedin-btn:hover .social-icon {
+	background-color:#6eb8da
+}
+#twitter-btn:hover .social-icon { 
+    background-color: #62BDB2;  
+}
+#google-btn:hover .social-icon { 
+background-color: #DB4A39;
+}
+#pintrest-btn:hover .social-icon { 
+ background-color: #D43638;
+}
+#youtube-btn:hover .social-icon { 
+background-color: #C4302B;
+}
+#instagram-btn:hover .social-icon {
+    background-color: #D2C5B3;
+}
+#flickr-btn:hover .social-icon {
+    background-color: #E4006B;
+}
+#web-btn:hover .social-icon {
+    background-color: #000;
+}
+#mail-btn:hover .social-icon {
+    background-color: #2A056F;
+}
+.social-text {
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 14px 0 11px 44px;
+    white-space: nowrap;
+    color: #FFFFFF;
+    font-family: Arial;
+}
